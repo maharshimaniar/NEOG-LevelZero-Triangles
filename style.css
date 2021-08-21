@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #00F0FF;
+  --secondary-color: rgb(43, 43, 43);
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  background-color: black;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header */
+
+header {
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-bottom-right-radius: 20px;
+}
+
+header h1 {
+  font-family: "Megrim", cursive;
+  text-align: initial;
+}
+
+nav {
+  text-align: right;
+}
+
+nav > a {
+  padding: 0 0.5rem;
+}
+
+.active{
+  background-color: var(--primary-color);
+  color: black;
+  padding: 0 0.5rem;
+  font-weight: bold;
+}
+
+.active-a{
+  color : black;
+}
+
+/* Main */
+
+main {
+  margin: 0 0 7rem;
+}
+
+.main h1,h3 {
+  margin: 1rem;
+  color: var(--primary-color);
+}
+
+.main hr{
+  width: 80%;
+  margin:auto
+}
+
+
+/*  Input */
+
+.input-label {
+  font-size: larger;
+  color: #b2b4b4;
+  width: 256px;
+}
+
+.input-label p {
+  font-size: larger;
+  margin: 0.5rem;
+}
+
+.input-text {
+  font-size: 1.2rem;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+  text-align: center;
+  
+}
+
+.btn-check {
+  background: var(--primary-color);
+  border: none;
+  color: black;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: 1rem auto;
+  display: block;
+}
+
+.output {
+  font-size: x-large;
+  margin: 1rem;
+  color: white
+}
+
+a{
+  display: inline;
+  color: #fff;
+}
+
+.main{
+  background-color: var(--secondary-color);
+  max-width: fit-content;
+  margin: auto;
+  padding: 1rem;
+  margin-top: 20px;
+  border-radius: 1rem;
+}
+
+.main > h1{
+  color : var(--primary-color);
+}
+
+h3{
+  color:white
+}

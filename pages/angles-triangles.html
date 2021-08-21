@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Is Triangle?</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Fun with Triangles</h1>
+    <nav>
+      <span><a href="../index.html">Quiz</a></span> | <span class = "active"><a  class = "active" href="./pages/angles-triangles.html">Is Triangle?</a></span> | 
+      <span><a href="../pages/calculate-hypo.html">Hypotenuse</a></span> | 
+      <span> <a href="../pages/calculate-area.html">Area of Triangle</a></span>
+    </nav>
+  </header>
+  <main class="main">
+    <h1>Angles of Triangles</h1>
+    <hr />
+    <label class="input-label" for="Angle1">
+      <p>Angle1</p>
+    </label>
+    <input type="number" class="input-text angle-input" placeholder="Enter Angle1"/>
+    <label class="input-label" for="Angle2">
+      <p>Angle2</p>
+    </label>
+    <input type="number" class="input-text angle-input" placeholder="Enter Angle2"/>
+    <label class="input-label" for="Angle3">
+      <p>Angle3</p>
+    </label>
+    <input type="number" class="input-text angle-input" placeholder="Enter Angle3"/>
+    <button class="btn-check" id="is-triangle-btn">Is Triangle?</button>
+    <h2 class="output"></h2>
+    <hr/>
+    <p id="output" class="output"></p>
+  </main>
+  <script src="../scripts/angles-triangles.js"></script>
+</body>
+
+</html>

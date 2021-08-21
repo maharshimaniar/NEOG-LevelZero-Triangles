@@ -1,0 +1,44 @@
+.quiz-main {
+  margin: 2rem auto;
+  width: 90%;
+  text-align: center;
+  color : white;
+  background-color: rgb(43, 43, 43);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.question-container{
+  width: 85%;
+  margin: 1rem auto;
+  font-size: larger;
+  padding: 1rem 0;
+  color : white
+}
+
+.question-container p {
+  margin: 1rem 0;
+  color : #b2b4b4
+}
+
+hr{
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+input{
+  margin: 20px;
+}
+
+h1,h3{
+  color: #00F0FF;
+}
+
+.btn-check{
+  color: black;
+}
+
+.quiz-form > hr{
+  width : 50%
+}
