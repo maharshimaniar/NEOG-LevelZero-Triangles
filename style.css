@@ -7,15 +7,20 @@
 }
 
 :root {
-  --primary-color: #00F0FF;
+  --primary-color: #00f0ff;
+  --black: #333333;
   --secondary-color: rgb(43, 43, 43);
+  --text-color: #bfbfbf;
 }
 
 body {
-  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  background-image: url(./images/background.svg);
+  background-attachment: fixed;
   text-align: center;
-  background-color: black;
-  
+  min-width: 600px;
 }
 
 a {
@@ -42,10 +47,17 @@ header h1 {
 
 nav {
   text-align: right;
+  font-size: 20px;
+  margin-top: 20px;
+  min-width: 540px;
 }
 
 nav > a {
   padding: 0 0.5rem;
+}
+
+nav > span{
+  margin: 20px;
 }
 
 .active{
@@ -80,7 +92,7 @@ main {
 
 .input-label {
   font-size: larger;
-  color: #b2b4b4;
+  color: var(--primary-color);
   width: 256px;
 }
 
@@ -91,7 +103,7 @@ main {
 
 .input-text {
   font-size: 1.2rem;
-  outline: #fff;
+  outline: var(--primary-color);
   padding: 0.6rem 1rem;
   margin: 1rem;
   border: 2px solid var(--primary-color);
@@ -99,7 +111,8 @@ main {
   width: 100%;
   max-width: 258px;
   text-align: center;
-  
+  background-color: var(--secondary-color);
+  color: var(--text-color);
 }
 
 .btn-check {
@@ -118,7 +131,7 @@ main {
 .output {
   font-size: x-large;
   margin: 1rem;
-  color: white
+  color: var(--primary-color)
 }
 
 a{

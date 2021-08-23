@@ -13,13 +13,17 @@ function isTriangle() {
     Number(inputs[1].value),
     Number(inputs[2].value)
   );
-  if (sum === 180) {
-    console.log("Yay, the angles form a triangle!");
-    outputEl.innerText = "Yay, the angles form a triangle!";
-  } else {
-    console.log("Oh Oh! The angle doesn't form a triangle");
-    outputEl.innerText = "Oh Oh! The angle doesn't form a triangle";
+  if (sum === 0) {
+    outputEl.innerText = "Please enter valid Inputs.";
   }
+  else {
+    if (sum === 180) {
+      outputEl.innerText = "Yay, the angles form a Triangle!";
+    } else {
+      outputEl.innerText = "Oh No! The angle doesn't form a Triangle";
+    }
+  }
+
 }
 
 isTriangleBtn.addEventListener("click", isTriangle);
