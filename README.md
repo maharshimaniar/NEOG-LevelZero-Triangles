@@ -3,10 +3,10 @@
 <br/>
 
 # How to use:
- -Quiz
- -- Choose correct option for each Question.
- -- Click on the **Submit** button.
- -- Score will be shown below the button after its Calculated.
+ -##Quiz
+ - Choose correct option for each Question.
+ - Click on the **Submit** button.
+ - Score will be shown below the button after its Calculated.
 
 # Programming Language:
  - html
