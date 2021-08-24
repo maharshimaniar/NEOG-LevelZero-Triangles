@@ -3,20 +3,23 @@
 <br/>
 
 # How to use:
- ##Quiz
+ ## Quiz
  - Choose correct option for each Question.
  - Click on the **Submit** button.
  - Score will be shown below the button after its Calculated.
- ##IsTriangle?
+
+ ## IsTriangle?
  - Enter 3 angles.
  - Click on the **Is Triangle** button.
  - Output will be shown below the button after its checked.
- ##Hypotaneus
+
+ ## Hypotaneus
  - Enter length of Base.
  - Enter length of Height.
  - Click on the **Calculate Hypotaneus** button.
  - Output will be shown below the button after its checked.
- ##AreaofTriangle
+
+ ## AreaofTriangle
  - Enter length Side 1,2,3.
  - Click on the **Calculate** button.
  - Output will be shown below the button after its checked.
