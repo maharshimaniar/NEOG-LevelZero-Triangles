@@ -131,7 +131,11 @@ main {
 .output {
   font-size: x-large;
   margin: 1rem;
-  color: var(--primary-color)
+  color: white
+}
+
+.output-span{
+  color: var(--primary-color);
 }
 
 a{

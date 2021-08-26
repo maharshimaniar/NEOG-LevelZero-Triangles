@@ -13,14 +13,14 @@ function isTriangle() {
     Number(inputs[1].value),
     Number(inputs[2].value)
   );
-  if (sum === 0) {
-    outputEl.innerText = "Please enter valid Inputs.";
+  if (Number(inputs[0].value) <= 0 && Number(inputs[1].value) <= 0 && Number(inputs[2].value) <= 0) {
+    outputEl.innerHTML = "Please Enter valid Inputs.<br>Angle should be <span class='output-span'> > 0</span>";
   }
   else {
     if (sum === 180) {
-      outputEl.innerText = "Yay, the angles form a Triangle!";
+      outputEl.innerText = "Yay!! The Angles form a Triangle! 😄";
     } else {
-      outputEl.innerText = "Oh No! The angle doesn't form a Triangle";
+      outputEl.innerText = "Oh No! The Angle doesn't form a Triangle ☹️";
     }
   }
 

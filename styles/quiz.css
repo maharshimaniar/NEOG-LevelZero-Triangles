@@ -20,7 +20,9 @@
 
 .question-container p {
   margin: 1rem 0;
-  color : #b2b4b4
+  color : var(--text-color);
+  font-size: larger;
+  font-weight: 600;
 }
 
 hr{
@@ -31,10 +33,11 @@ hr{
 
 input{
   margin: 20px;
+
 }
 
 h1,h3{
-  color: #00F0FF;
+  color: var(--primary-color);
 }
 
 .btn-check{
@@ -43,4 +46,8 @@ h1,h3{
 
 .quiz-form > hr{
   width : 50%
+}
+
+.options{
+  text-align: left;
 }

@@ -9,7 +9,7 @@ function calculateSumOfSquare(a, b) {
 
 function calculateHypotenuse() {
   if (Number(sides[0].value) <= 0 || Number(sides[1].value) <= 0) {
-    outputEl.innerText = "Please enter Valid Inputs."
+    outputEl.innerHTML = "Please enter Valid Inputs.<br>Length should be <span class='output-span'> > 0</span>"
   }
   else {
     console.log(Number(sides[0].value));
@@ -18,7 +18,7 @@ function calculateHypotenuse() {
       Number(sides[1].value)
     );
     const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
-    outputEl.innerText = "The length of hypotenuse is " + lengthOfHypotenuse;
+    outputEl.innerHTML = "The length of hypotenuse is <span class='output-span'>"+  lengthOfHypotenuse.toFixed(3) +"</span>";
   }
 
 }

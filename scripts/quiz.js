@@ -3,16 +3,16 @@ const submitBtn = document.querySelector("#submit-answers-btn");
 const outputEl = document.querySelector(".output");
 
 const correctAnswers = [
-  "90°",
-  "right angled",
-  "one right angle",
-  "12, 16, 20",
-  "Equilateral triangle",
-  "100°",
-  "30°",
-  "a + b + c",
-  "no",
-  "45°",
+  "obtuse triangle",
+  "acute triangle",
+  "isosceles triangle",
+  "right triangle",
+  "equilateral triangle",
+  "perimeter",
+  "hypotenuse",
+  "true",
+  "5",
+  "180°",
 ];
 
 function calculateScore() {
@@ -25,8 +25,19 @@ function calculateScore() {
     }
     index = index + 1;
   }
-  // console.log("The score is "+score);
-  outputEl.innerText = "The score is " + score;
+  console.log(score);
+  if(score===10){
+    console.log(score);
+    outputEl.innerHTML = "Wohoo!!🥳 You scored perfect " + "<span class='output-span'>"+score+"</span>";
+  }
+  else if(score>=4 && score<10){
+    console.log(score);
+    outputEl.innerHTML = "Wohoo!!😁 Your score is " + "<span class='output-span'>"+score+"</span>";
+  }
+  else{
+    console.log(score);
+    outputEl.innerHTML = "Your score is " + "<span class='output-span'>"+score+"</span><br>" + "Better Luck Next  Time!!👍";
+  }
 }
 
 submitBtn.addEventListener("click", calculateScore);
